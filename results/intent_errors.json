@@ -1,0 +1,18 @@
+[
+  {
+    "text": "do you know of any IStar extension catalogs?",
+    "intent": "how_to_access_extension_catalog",
+    "intent_prediction": {
+      "name": "there_any_guarantee_of_inclusion_of_new_catalog_extensions",
+      "confidence": 0.48658305406570435
+    }
+  },
+  {
+    "text": "você conhece algum catálogo de extensões de IStar",
+    "intent": "existe_alguma_garantia_inclusao_de_novas_extensoes_catalogo",
+    "intent_prediction": {
+      "name": "como_acessar_catalogo_de_extensoes",
+      "confidence": 0.6142708659172058
+    }
+  }
+]

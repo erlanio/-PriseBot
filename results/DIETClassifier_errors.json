@@ -1,0 +1,2714 @@
+[
+  {
+    "text": "show me an extension related toconsidering, rolebased, conflicts, of, interest, in, analyzing, and, designing, ehealth, systems, with, goaloriented, methodologies ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 162,
+        "value": "considering, rolebased, conflicts, of, interest, in, analyzing, and, designing, ehealth, systems, with, goaloriented, methodologies",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tomodelling, strategic, relationships, process, reengineering ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 90,
+        "value": "modelling, strategic, relationships, process, reengineering",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toxipho, extending, tropos, to, engineer, contextaware, personal, agents ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 101,
+        "value": "xipho, extending, tropos, to, engineer, contextaware, personal, agents",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related totropos, an, agentoriented, software, development, methodology ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 92,
+        "value": "tropos, an, agentoriented, software, development, methodology",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toevaluating, goal, models, within, the, goaloriented, requirement, language ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 105,
+        "value": "evaluating, goal, models, within, the, goaloriented, requirement, language",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related todesigning, lawcompliant, software, requirements ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 78,
+        "value": "designing, lawcompliant, software, requirements",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tosecure, tropos, securityoriented, extension, of, the, tropos, methodology ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 104,
+        "value": "secure, tropos, securityoriented, extension, of, the, tropos, methodology",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toimproving, requirements, specification, in, webredtool, by, using, nfrs, classification ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 118,
+        "value": "improving, requirements, specification, in, webredtool, by, using, nfrs, classification",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related totowards, an, approach, to, integrate, i, with, aspects ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 85,
+        "value": "towards, an, approach, to, integrate, i, with, aspects",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related togoaldriven, software, product, line, engineering ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 79,
+        "value": "goaldriven, software, product, line, engineering",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tocomparison, of, goaloriented, approaches, to, model, software, product, lines, variability ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 121,
+        "value": "comparison, of, goaloriented, approaches, to, model, software, product, lines, variability",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tousing, i, to, model, access, policies, relating, actors, to, their, organizational, context ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 122,
+        "value": "using, i, to, model, access, policies, relating, actors, to, their, organizational, context",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tomodelling, enterprise, capabilities, with, i, reasoning, on, alternatives ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 104,
+        "value": "modelling, enterprise, capabilities, with, i, reasoning, on, alternatives",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toimproving, riskbased, security, analysis, with, i ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 80,
+        "value": "improving, riskbased, security, analysis, with, i",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tonew, servicebased, approach, enterprise, modelling ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 81,
+        "value": "new, servicebased, approach, enterprise, modelling",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toon, the, joint, use, of, i, with, other, modelling, frameworks, vision, paper ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 108,
+        "value": "on, the, joint, use, of, i, with, other, modelling, frameworks, vision, paper",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tointegrating, business, domain, ontologies, with, early, requirements, modelling ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 110,
+        "value": "integrating, business, domain, ontologies, with, early, requirements, modelling",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related torequirements, modelling, organization, networks, distrustbased, approach ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 103,
+        "value": "requirements, modelling, organization, networks, distrustbased, approach",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tosnet, modelling, and, simulation, environment, agent, networks, based, on, i, and, congolog ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 122,
+        "value": "snet, modelling, and, simulation, environment, agent, networks, based, on, i, and, congolog",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tousing, measures, to, improve, i, models, automatic, interoperability, in, modeldriven, development, processes ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 140,
+        "value": "using, measures, to, improve, i, models, automatic, interoperability, in, modeldriven, development, processes",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tofinding, solutions, in, goal, models, an, interactive, backward, reasoning, approach ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 115,
+        "value": "finding, solutions, in, goal, models, an, interactive, backward, reasoning, approach",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related torequirementsdriven, design, of, autonomic, application, software ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 95,
+        "value": "requirementsdriven, design, of, autonomic, application, software",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tomodelling, domain, variability, in, requirements, engineering, with, contexts ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 108,
+        "value": "modelling, domain, variability, in, requirements, engineering, with, contexts",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tointegrating, security, patterns, with, security, requirements, analysis, using, contextual, goal, models ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 135,
+        "value": "integrating, security, patterns, with, security, requirements, analysis, using, contextual, goal, models",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toon, goalbased, variability, acquisition, and, analysis ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 85,
+        "value": "on, goalbased, variability, acquisition, and, analysis",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related totowards, augmenting, requirements, models, with, preferences ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 91,
+        "value": "towards, augmenting, requirements, models, with, preferences",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toon, temporally, annotating, goal, models ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 71,
+        "value": "on, temporally, annotating, goal, models",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related torepresenting, and, reasoning, about, preferences, in, requirements, engineering ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 110,
+        "value": "representing, and, reasoning, about, preferences, in, requirements, engineering",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tosecurity, and, privacy, requirements, analysis, within, social, setting ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 102,
+        "value": "security, and, privacy, requirements, analysis, within, social, setting",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toexploring, the, impact, of, software, requirements, on, systemwide, goals, method, using, satisfaction, arguments, and, i, goal, modelling ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 169,
+        "value": "exploring, the, impact, of, software, requirements, on, systemwide, goals, method, using, satisfaction, arguments, and, i, goal, modelling",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toholonic, extension, of, the, i, framework ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 72,
+        "value": "holonic, extension, of, the, i, framework",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toadding, semantic, modules, to, improve, goaloriented, analysis, of, data, warehouses, using, istar ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 129,
+        "value": "adding, semantic, modules, to, improve, goaloriented, analysis, of, data, warehouses, using, istar",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related totristar, an, i, extension, teleoreactive, systems, requirements, specifications ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 110,
+        "value": "tristar, an, i, extension, teleoreactive, systems, requirements, specifications",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tofrom, requirements, to, statecharts, via, design, refinement ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 91,
+        "value": "from, requirements, to, statecharts, via, design, refinement",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toexploring, the, effectiveness, of, normative, i, modelling, results, from, case, study, on, food, chain, traceability ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 148,
+        "value": "exploring, the, effectiveness, of, normative, i, modelling, results, from, case, study, on, food, chain, traceability",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tocapturing, variability, of, law, with, nomos ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 75,
+        "value": "capturing, variability, of, law, with, nomos",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related togoal, oriented, approach, to, identify, and, configure, feature, models, software, product, lines ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 128,
+        "value": "goal, oriented, approach, to, identify, and, configure, feature, models, software, product, lines",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related totrust, from, cognition, to, conceptual, models, and, design ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 90,
+        "value": "trust, from, cognition, to, conceptual, models, and, design",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toanalyzing, the, effectiveness, of, human, activity, systems, with, i ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 99,
+        "value": "analyzing, the, effectiveness, of, human, activity, systems, with, i",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tocsrml, goaloriented, approach, to, model, requirements, collaborative, systems ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 109,
+        "value": "csrml, goaloriented, approach, to, model, requirements, collaborative, systems",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toexploring, web, services, from, business, value, perspective ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 91,
+        "value": "exploring, web, services, from, business, value, perspective",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toaddressing, performance, requirements, using, goal, and, scenariooriented, approach ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 114,
+        "value": "addressing, performance, requirements, using, goal, and, scenariooriented, approach",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related torequirements, engineering, the, design, of, conceptual, modelling, languages ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 107,
+        "value": "requirements, engineering, the, design, of, conceptual, modelling, languages",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toevaluation, of, reusable, concernoriented, goal, models ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 86,
+        "value": "evaluation, of, reusable, concernoriented, goal, models",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tolegal, goaloriented, requirement, language, legal, grl, modelling, regulations ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 109,
+        "value": "legal, goaloriented, requirement, language, legal, grl, modelling, regulations",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toprinciplebased, goaloriented, requirements, language, grl, enterprise, architecture ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 114,
+        "value": "principlebased, goaloriented, requirements, language, grl, enterprise, architecture",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toformalizing, and, modeling, enterprise, architecture, ea, principles, with, goaloriented, requirements, language, grl ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 148,
+        "value": "formalizing, and, modeling, enterprise, architecture, ea, principles, with, goaloriented, requirements, language, grl",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toan, mde, modelling, framework, measurable, goaloriented, requirements ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 100,
+        "value": "an, mde, modelling, framework, measurable, goaloriented, requirements",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related togoal, modelling, sustainability, the, case, of, time ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 83,
+        "value": "goal, modelling, sustainability, the, case, of, time",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tolegal, requirements, analysis, and, modelling, with, the, measured, compliance, profile, the, goaloriented, requirement, language ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 160,
+        "value": "legal, requirements, analysis, and, modelling, with, the, measured, compliance, profile, the, goaloriented, requirement, language",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related totracing, the, interdependencies, between, architecture, and, organization, in, goaloriented, extensible, models ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 142,
+        "value": "tracing, the, interdependencies, between, architecture, and, organization, in, goaloriented, extensible, models",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toan, approach, to, specify, and, analyze, goal, model, families ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 93,
+        "value": "an, approach, to, specify, and, analyze, goal, model, families",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related todesigning, it, systems, according, to, environmental, settings, strategic, analysis, framework ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 125,
+        "value": "designing, it, systems, according, to, environmental, settings, strategic, analysis, framework",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tolocationbased, software, modelling, and, analysis, troposbased, approach ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 103,
+        "value": "locationbased, software, modelling, and, analysis, troposbased, approach",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tomodelling, and, analyzing, variability, mobile, information, systems ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 99,
+        "value": "modelling, and, analyzing, variability, mobile, information, systems",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related togoal, modelling, framework, selfcontextualizable, software, enterprise ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 101,
+        "value": "goal, modelling, framework, selfcontextualizable, software, enterprise",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related togoalbased, framework, contextual, requirements, modelling, and, analysis ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 103,
+        "value": "goalbased, framework, contextual, requirements, modelling, and, analysis",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related togoaldriven, risk, assessment, in, requirements, engineering ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 90,
+        "value": "goaldriven, risk, assessment, in, requirements, engineering",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tousing, antimodels, to, define, agents, strategy ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 78,
+        "value": "using, antimodels, to, define, agents, strategy",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tomodelling, and, reasoning, about, serviceoriented, applications, via, goals, and, commitments ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 124,
+        "value": "modelling, and, reasoning, about, serviceoriented, applications, via, goals, and, commitments",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tosecurity, and, trust, requirements, engineering ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 78,
+        "value": "security, and, trust, requirements, engineering",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related togrand, goaloriented, approach, to, requirement, analysis, in, data, warehouses ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 109,
+        "value": "grand, goaloriented, approach, to, requirement, analysis, in, data, warehouses",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tosocially, grounded, analysis, of, knowledge, management, systems, and, processes ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 111,
+        "value": "socially, grounded, analysis, of, knowledge, management, systems, and, processes",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tomodelling, mental, states, in, agentoriented, requirements, engineering ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 102,
+        "value": "modelling, mental, states, in, agentoriented, requirements, engineering",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toframework, selfadaptive, software, based, on, extended, tropos, goal, model ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 106,
+        "value": "framework, selfadaptive, software, based, on, extended, tropos, goal, model",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toengineering, and, verifying, agentoriented, requirements, augmented, by, business, constraints, with, btropos ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 140,
+        "value": "engineering, and, verifying, agentoriented, requirements, augmented, by, business, constraints, with, btropos",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toengineering, requirements, adaptive, systems ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 75,
+        "value": "engineering, requirements, adaptive, systems",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related topragmatic, requirements, adaptive, systems, goaldriven, modeling, and, analysis, approach ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 120,
+        "value": "pragmatic, requirements, adaptive, systems, goaldriven, modeling, and, analysis, approach",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toarguing, regulatory, compliance, of, software, requirements ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 90,
+        "value": "arguing, regulatory, compliance, of, software, requirements",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tonomos, legal, compliance, of, roles, and, requirements ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 85,
+        "value": "nomos, legal, compliance, of, roles, and, requirements",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related togoals, and, compliance, in, nòmos ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 64,
+        "value": "goals, and, compliance, in, nòmos",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tosecurity, requirements, engineering, via, commitments ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 84,
+        "value": "security, requirements, engineering, via, commitments",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tovulnerabilitycentric, requirements, engineering, framework, analyzing, security, attacks, countermeasures, and, requirements, based, on, vulnerabilities ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 183,
+        "value": "vulnerabilitycentric, requirements, engineering, framework, analyzing, security, attacks, countermeasures, and, requirements, based, on, vulnerabilities",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tomodelling, and, analyzing, information, integrity, in, safety, critical, systems ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 111,
+        "value": "modelling, and, analyzing, information, integrity, in, safety, critical, systems",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tomodelling, and, reasoning, about, information, quality, requirements ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 99,
+        "value": "modelling, and, reasoning, about, information, quality, requirements",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tomodelling, security, requirements, through, ownership, permission, and, delegation ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 113,
+        "value": "modelling, security, requirements, through, ownership, permission, and, delegation",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tomodel, based, process, to, support, security, and, privacy, requirements, engineering ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 116,
+        "value": "model, based, process, to, support, security, and, privacy, requirements, engineering",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tosecure, tropos, framework, software, product, lines, requirements, engineering ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 109,
+        "value": "secure, tropos, framework, software, product, lines, requirements, engineering",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toframework, to, support, selection, of, cloud, providers, based, on, security, and, privacy, requirements ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 135,
+        "value": "framework, to, support, selection, of, cloud, providers, based, on, security, and, privacy, requirements",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toconsidering, technology, representation, in, serviceoriented, business, models ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 109,
+        "value": "considering, technology, representation, in, serviceoriented, business, models",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related totowards, modular, i, models ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 58,
+        "value": "towards, modular, i, models",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tomethodology, modeling, ambient, intelligence, applications, using, i, framework ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 110,
+        "value": "methodology, modeling, ambient, intelligence, applications, using, i, framework",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toengineering, requirements, with, desiree, an, empirical, evaluation ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 98,
+        "value": "engineering, requirements, with, desiree, an, empirical, evaluation",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toacceptance, requirements, and, their, gamification, solutions ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 92,
+        "value": "acceptance, requirements, and, their, gamification, solutions",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toan, approach, to, modeling, and, developing, teleoreactive, systems, considering, timing, constraints ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 132,
+        "value": "an, approach, to, modeling, and, developing, teleoreactive, systems, considering, timing, constraints",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tohow, software, changes, the, world, the, role, of, assumptions ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 93,
+        "value": "how, software, changes, the, world, the, role, of, assumptions",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tomultiobjective, risk, analysis, with, goal, models ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 81,
+        "value": "multiobjective, risk, analysis, with, goal, models",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related togoda, goaloriented, requirements, engineering, framework, runtime, dependability, analysis ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 121,
+        "value": "goda, goaloriented, requirements, engineering, framework, runtime, dependability, analysis",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toenriching, organizational, models, through, semantic, annotation ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 95,
+        "value": "enriching, organizational, models, through, semantic, annotation",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related torequirementsdriven, deployment ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 61,
+        "value": "requirementsdriven, deployment",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tosuggest, new, i, constructs ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 58,
+        "value": "suggest, new, i, constructs",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tosolution, proposal, complex, web, application, modeling, with, the, istar, framework ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 115,
+        "value": "solution, proposal, complex, web, application, modeling, with, the, istar, framework",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toref, practical, agentbased, approach, to, requirements, engineering, sociotechnical, systems ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 123,
+        "value": "ref, practical, agentbased, approach, to, requirements, engineering, sociotechnical, systems",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toannotating, goals, with, concerns, in, goaloriented, requirements, engineering ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 109,
+        "value": "annotating, goals, with, concerns, in, goaloriented, requirements, engineering",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related totoward, goaloriented, business, intelligence, decisionmaking, framework ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 102,
+        "value": "toward, goaloriented, business, intelligence, decisionmaking, framework",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toextending, tropos, prolog, implementation, case, study, using, the, food, collecting, agent, problem ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 131,
+        "value": "extending, tropos, prolog, implementation, case, study, using, the, food, collecting, agent, problem",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toanalyzing, trust, requirements, in, sociotechnical, systems, beliefbased, approach ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 113,
+        "value": "analyzing, trust, requirements, in, sociotechnical, systems, beliefbased, approach",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tosecurity, requirements, engineering, cloud, computing, the, secure, tropos, approach ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 115,
+        "value": "security, requirements, engineering, cloud, computing, the, secure, tropos, approach",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toprivacyaware, trust, negotiation ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 63,
+        "value": "privacyaware, trust, negotiation",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related tonew, representations ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 51,
+        "value": "new, representations",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toistarsafety ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 42,
+        "value": "istarsafety",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toistarrationalagents, modeling, requirements, of, multiagent, systems, with, rational, agents ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 123,
+        "value": "istarrationalagents, modeling, requirements, of, multiagent, systems, with, rational, agents",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related totest ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 35,
+        "value": "test",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toteste ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 36,
+        "value": "teste",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related totestando ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 39,
+        "value": "testando",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me an extension related toextensão, istar, modelagem, requisitos, acessibilidade ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 85,
+        "value": "extensão, istar, modelagem, requisitos, acessibilidade",
+        "entity": "extensao"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who a construct of Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement) ?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 162,
+        "value": "Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "construct of Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement) ?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 156,
+        "value": "Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what constructor should I use to represent Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement) ?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 186,
+        "value": "Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "which constructor should I use to represent Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement) ?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 187,
+        "value": "Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to denote Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 180,
+        "value": "Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to represent Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement) ?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 183,
+        "value": "Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to express Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement) ?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 182,
+        "value": "Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which construct can I use to indicate Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement) ?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 181,
+        "value": "Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to signal Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 180,
+        "value": "Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to illustrate Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement) ?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 185,
+        "value": "Domain values (Strategic Goal, Decision goal, Information Goal, Business Process,  Information Requirement, Task Context, resource measurement)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who a construct of Has a  ?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "value": "Has a ",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "construct of Has a  ?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 19,
+        "value": "Has a ",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what constructor should I use to represent Has a  ?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 49,
+        "value": "Has a ",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "which constructor should I use to represent Has a  ?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 50,
+        "value": "Has a ",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to denote Has a  ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 43,
+        "value": "Has a ",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to represent Has a  ?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 46,
+        "value": "Has a ",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to express Has a  ?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 45,
+        "value": "Has a ",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which construct can I use to indicate Has a  ?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 44,
+        "value": "Has a ",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to signal Has a  ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 43,
+        "value": "Has a ",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to illustrate Has a  ?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 48,
+        "value": "Has a ",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who a construct of Context (Link to other part of diagram) ?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 58,
+        "value": "Context (Link to other part of diagram)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "construct of Context (Link to other part of diagram) ?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 52,
+        "value": "Context (Link to other part of diagram)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what constructor should I use to represent Context (Link to other part of diagram) ?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 82,
+        "value": "Context (Link to other part of diagram)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "which constructor should I use to represent Context (Link to other part of diagram) ?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 83,
+        "value": "Context (Link to other part of diagram)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to denote Context (Link to other part of diagram) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 76,
+        "value": "Context (Link to other part of diagram)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to represent Context (Link to other part of diagram) ?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 79,
+        "value": "Context (Link to other part of diagram)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to express Context (Link to other part of diagram) ?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 78,
+        "value": "Context (Link to other part of diagram)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which construct can I use to indicate Context (Link to other part of diagram) ?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 77,
+        "value": "Context (Link to other part of diagram)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to signal Context (Link to other part of diagram) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 76,
+        "value": "Context (Link to other part of diagram)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to illustrate Context (Link to other part of diagram) ?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 81,
+        "value": "Context (Link to other part of diagram)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who a construct of Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal) ?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 105,
+        "value": "Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "construct of Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal) ?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 99,
+        "value": "Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what constructor should I use to represent Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal) ?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 129,
+        "value": "Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "which constructor should I use to represent Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal) ?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 130,
+        "value": "Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to denote Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 123,
+        "value": "Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to represent Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal) ?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 126,
+        "value": "Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to express Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal) ?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 125,
+        "value": "Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which construct can I use to indicate Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal) ?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 124,
+        "value": "Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to signal Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 123,
+        "value": "Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to illustrate Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal) ?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 128,
+        "value": "Malicious entity (Malicious Actor, Malicious Task, Malicious Goal, Malicious Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who a construct of Make and Brake representated by + and - ?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 58,
+        "value": "Make and Brake representated by + and -",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "construct of Make and Brake representated by + and - ?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 52,
+        "value": "Make and Brake representated by + and -",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what constructor should I use to represent Make and Brake representated by + and - ?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 82,
+        "value": "Make and Brake representated by + and -",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "which constructor should I use to represent Make and Brake representated by + and - ?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 83,
+        "value": "Make and Brake representated by + and -",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to denote Make and Brake representated by + and - ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 76,
+        "value": "Make and Brake representated by + and -",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to represent Make and Brake representated by + and - ?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 79,
+        "value": "Make and Brake representated by + and -",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to express Make and Brake representated by + and - ?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 78,
+        "value": "Make and Brake representated by + and -",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which construct can I use to indicate Make and Brake representated by + and - ?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 77,
+        "value": "Make and Brake representated by + and -",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to signal Make and Brake representated by + and - ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 76,
+        "value": "Make and Brake representated by + and -",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to illustrate Make and Brake representated by + and - ?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 81,
+        "value": "Make and Brake representated by + and -",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who a construct of Security itens (Security Goal, Security Resource, Security Task, Security Softgoal) ?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 102,
+        "value": "Security itens (Security Goal, Security Resource, Security Task, Security Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "construct of Security itens (Security Goal, Security Resource, Security Task, Security Softgoal) ?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 96,
+        "value": "Security itens (Security Goal, Security Resource, Security Task, Security Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what constructor should I use to represent Security itens (Security Goal, Security Resource, Security Task, Security Softgoal) ?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 126,
+        "value": "Security itens (Security Goal, Security Resource, Security Task, Security Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "which constructor should I use to represent Security itens (Security Goal, Security Resource, Security Task, Security Softgoal) ?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 127,
+        "value": "Security itens (Security Goal, Security Resource, Security Task, Security Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to denote Security itens (Security Goal, Security Resource, Security Task, Security Softgoal) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 120,
+        "value": "Security itens (Security Goal, Security Resource, Security Task, Security Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to represent Security itens (Security Goal, Security Resource, Security Task, Security Softgoal) ?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 123,
+        "value": "Security itens (Security Goal, Security Resource, Security Task, Security Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to express Security itens (Security Goal, Security Resource, Security Task, Security Softgoal) ?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 122,
+        "value": "Security itens (Security Goal, Security Resource, Security Task, Security Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which construct can I use to indicate Security itens (Security Goal, Security Resource, Security Task, Security Softgoal) ?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 121,
+        "value": "Security itens (Security Goal, Security Resource, Security Task, Security Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to signal Security itens (Security Goal, Security Resource, Security Task, Security Softgoal) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 120,
+        "value": "Security itens (Security Goal, Security Resource, Security Task, Security Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to illustrate Security itens (Security Goal, Security Resource, Security Task, Security Softgoal) ?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 125,
+        "value": "Security itens (Security Goal, Security Resource, Security Task, Security Softgoal)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who a construct of Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied) ?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 123,
+        "value": "Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "construct of Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied) ?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 117,
+        "value": "Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what constructor should I use to represent Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied) ?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 147,
+        "value": "Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "which constructor should I use to represent Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied) ?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 148,
+        "value": "Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to denote Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 141,
+        "value": "Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to represent Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied) ?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 144,
+        "value": "Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to express Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied) ?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 143,
+        "value": "Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which construct can I use to indicate Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied) ?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 142,
+        "value": "Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to signal Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 141,
+        "value": "Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to illustrate Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied) ?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 146,
+        "value": "Contributions link type (Satisfied, Partually Satisfied, Unknown, Conflict, Partially Denied and Denied)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who a construct of Process entities (Process unit, process goal, business process) ?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 82,
+        "value": "Process entities (Process unit, process goal, business process)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "construct of Process entities (Process unit, process goal, business process) ?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 76,
+        "value": "Process entities (Process unit, process goal, business process)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what constructor should I use to represent Process entities (Process unit, process goal, business process) ?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 106,
+        "value": "Process entities (Process unit, process goal, business process)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "which constructor should I use to represent Process entities (Process unit, process goal, business process) ?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 107,
+        "value": "Process entities (Process unit, process goal, business process)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to denote Process entities (Process unit, process goal, business process) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 100,
+        "value": "Process entities (Process unit, process goal, business process)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to represent Process entities (Process unit, process goal, business process) ?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 103,
+        "value": "Process entities (Process unit, process goal, business process)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to express Process entities (Process unit, process goal, business process) ?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 102,
+        "value": "Process entities (Process unit, process goal, business process)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which construct can I use to indicate Process entities (Process unit, process goal, business process) ?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 101,
+        "value": "Process entities (Process unit, process goal, business process)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to signal Process entities (Process unit, process goal, business process) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 100,
+        "value": "Process entities (Process unit, process goal, business process)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to illustrate Process entities (Process unit, process goal, business process) ?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 105,
+        "value": "Process entities (Process unit, process goal, business process)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who a construct of Business entities (Business unit, business goal,  Business service) ?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 86,
+        "value": "Business entities (Business unit, business goal,  Business service)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "construct of Business entities (Business unit, business goal,  Business service) ?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 80,
+        "value": "Business entities (Business unit, business goal,  Business service)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what constructor should I use to represent Business entities (Business unit, business goal,  Business service) ?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 110,
+        "value": "Business entities (Business unit, business goal,  Business service)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "which constructor should I use to represent Business entities (Business unit, business goal,  Business service) ?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 111,
+        "value": "Business entities (Business unit, business goal,  Business service)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to denote Business entities (Business unit, business goal,  Business service) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 104,
+        "value": "Business entities (Business unit, business goal,  Business service)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to represent Business entities (Business unit, business goal,  Business service) ?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 107,
+        "value": "Business entities (Business unit, business goal,  Business service)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to express Business entities (Business unit, business goal,  Business service) ?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 106,
+        "value": "Business entities (Business unit, business goal,  Business service)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which construct can I use to indicate Business entities (Business unit, business goal,  Business service) ?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 105,
+        "value": "Business entities (Business unit, business goal,  Business service)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to signal Business entities (Business unit, business goal,  Business service) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 104,
+        "value": "Business entities (Business unit, business goal,  Business service)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to illustrate Business entities (Business unit, business goal,  Business service) ?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 109,
+        "value": "Business entities (Business unit, business goal,  Business service)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who a construct of Value nodes (Value Activity and value object) ?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 64,
+        "value": "Value nodes (Value Activity and value object)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "construct of Value nodes (Value Activity and value object) ?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 58,
+        "value": "Value nodes (Value Activity and value object)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what constructor should I use to represent Value nodes (Value Activity and value object) ?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 88,
+        "value": "Value nodes (Value Activity and value object)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "which constructor should I use to represent Value nodes (Value Activity and value object) ?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 89,
+        "value": "Value nodes (Value Activity and value object)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to denote Value nodes (Value Activity and value object) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 82,
+        "value": "Value nodes (Value Activity and value object)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to represent Value nodes (Value Activity and value object) ?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 85,
+        "value": "Value nodes (Value Activity and value object)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to express Value nodes (Value Activity and value object) ?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 84,
+        "value": "Value nodes (Value Activity and value object)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which construct can I use to indicate Value nodes (Value Activity and value object) ?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 83,
+        "value": "Value nodes (Value Activity and value object)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to signal Value nodes (Value Activity and value object) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 82,
+        "value": "Value nodes (Value Activity and value object)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to illustrate Value nodes (Value Activity and value object) ?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 87,
+        "value": "Value nodes (Value Activity and value object)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who a construct of Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt) ?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 98,
+        "value": "Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "construct of Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt) ?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 92,
+        "value": "Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what constructor should I use to represent Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt) ?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 122,
+        "value": "Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "which constructor should I use to represent Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt) ?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 123,
+        "value": "Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to denote Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 116,
+        "value": "Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to represent Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt) ?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 119,
+        "value": "Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to express Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt) ?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 118,
+        "value": "Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which construct can I use to indicate Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt) ?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 117,
+        "value": "Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to signal Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 116,
+        "value": "Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to illustrate Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt) ?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 121,
+        "value": "Graphical stereotypes add in relationship (Make, Help, Unknown, Break and hurt)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who a construct of Web concepts (Content, navigational, personalization, layout) ?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 80,
+        "value": "Web concepts (Content, navigational, personalization, layout)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "construct of Web concepts (Content, navigational, personalization, layout) ?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 74,
+        "value": "Web concepts (Content, navigational, personalization, layout)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what constructor should I use to represent Web concepts (Content, navigational, personalization, layout) ?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 104,
+        "value": "Web concepts (Content, navigational, personalization, layout)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "which constructor should I use to represent Web concepts (Content, navigational, personalization, layout) ?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 105,
+        "value": "Web concepts (Content, navigational, personalization, layout)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to denote Web concepts (Content, navigational, personalization, layout) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 98,
+        "value": "Web concepts (Content, navigational, personalization, layout)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to represent Web concepts (Content, navigational, personalization, layout) ?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 101,
+        "value": "Web concepts (Content, navigational, personalization, layout)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to express Web concepts (Content, navigational, personalization, layout) ?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 100,
+        "value": "Web concepts (Content, navigational, personalization, layout)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which construct can I use to indicate Web concepts (Content, navigational, personalization, layout) ?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 99,
+        "value": "Web concepts (Content, navigational, personalization, layout)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What constructor can I use to signal Web concepts (Content, navigational, personalization, layout) ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 98,
+        "value": "Web concepts (Content, navigational, personalization, layout)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which constructor can I use to illustrate Web concepts (Content, navigational, personalization, layout) ?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 103,
+        "value": "Web concepts (Content, navigational, personalization, layout)",
+        "entity": "construtor"
+      }
+    ],
+    "predicted_entities": []
+  }
+]
