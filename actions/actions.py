@@ -15,7 +15,7 @@ from spacy_language_detection import LanguageDetector
 from bardapi import Bard
 import os
 
-openai.api_key = "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"
+openai.api_key = "API-KEY"
 host = "localhost"
 user = "root"
 password = ""
