@@ -1,0 +1,558 @@
+  version: "3.1"
+  intents:
+    - boas_vindas
+    - istar
+    - problemas_prise
+    - conflitos_semiotica
+    - reutiliza_construtores
+    - ferramentas_prise
+    - como_funciona_ferramenta_prise
+    - objetivo_catalogo_de_extensoes_istar
+    - auxilio_criacao_prise
+    - vantagens_uso_prise
+    - como_o_prise_funciona
+    - como_o_prise_integra_um_novo_construtor_com_o_iStar_20
+    - criterios_validacao_extensoes_prise
+    - existe_alguma_garantia_inclusao_de_novas_extensoes_catalogo
+    - como_acessar_catalogo_de_extensoes
+    - processo_prise
+    - erlanio
+    - algo_mais
+    - criador_do_prise
+    - quer_saber_mais_sobre_prise
+    - construtores
+    - quem_foi_seu_programador
+    - quais_passos_do_processo_prise
+    - analisa_necessidade_de_extensão
+    - passos_envolvidos_descricao_dos_conceitos_extensão_istar
+    - fluxo_processo_passos_descricao_conceitos_istar
+    - fluxo_principal_prise
+    - fluxo_analise_necessidade_extensão
+    - out_of_scope
+    - aguarde_resposta
+    - validar_avaliar_extensao
+    - fluxo_validar_avaliar_extensao
+    - processo_desenvolvimento_de_extensao
+    - fluxo_processo_desenvolvimento_de_extensao
+    - extensoes
+    - para_que_serve_o_artefato_de_diretrizes
+    - lista_de_construtores_introduzidos
+    - evolução_da_especificacao_da_extensao
+    - lista_de_construtores_a_ser_reutilizados
+    - lista_de_especialistas_em_extensoes_iStar
+    - lista_de_relacoes_entre_os_construtores_da_extensao_e_os_construtores_do_iStar
+    - metamodelo_regras_de_boa_formacao
+    - checklist_verificacao_problemas
+#INTENTS EM INGLÊS
+    - constructor
+    - who_was_your_programmer
+    - want_to_know_more_about_prise
+    - welcome
+    - istar_en
+    - reuse_constructors
+    - problems_prise
+    - how_to_access_extension_catalog
+    - process_prise
+    - creator_of_prise
+    - what_steps_in_the_prise_process
+    - create_prise_assistance
+    - objective_extension_catalog_istar
+    - tools_prise
+    - advantages_use_prise
+    - how_prise_evaluates_need_new_extension
+    - how_the_prise_integrates_a_new_builder_with_the_iStar_20
+    - there_any_guarantee_of_inclusion_of_new_catalog_extensions
+    - steps_involved_description_of_extension_concepts_istar
+    - flow_process_steps_description_concepts_istar
+    - flow_analysis_need_extension
+    - main_prise_flow
+    - process_extension_development
+    - process_flow_extension_development
+    - validate_extension
+    - flow_validate_evaluate_extension
+    - for_what_is_the_directives_artifact
+    - list_of_introduced_constructs
+    - extension_specification_evolution
+    - list_of_constructs_to_be_used
+    - list_of_relationships_between_the_constructs_of_the_extension_and_the_builders_of_iStar
+    - list_of_experts_in_iStar_extensions
+    - metamodel_good_rules
+    - checklist_problems
+  entities:
+    - construtor
+
+  slots:
+    construtor:
+      type: text
+      influence_conversation: true
+      mappings:
+        - type: custom
+        
+  responses:
+    utter_metamodel_good_rules:
+    - text: "During subprocess 3, development of the iStar extension, the artifact iStar metamodel and well-formedness rules / List of concrete syntax representation of the extension is defined.
+              \n\nI'm sending you the link to the artifact: https://www.cin.ufpe.br/~ler/prise/files/attachments/Concrete_syntax_representations.doc"
+
+    utter_checklist_problems:
+    - text: "The problem checking checklist artifact, generated during the development stage of the extension, helps to check for consistency, completeness and conflict problems, allowing, for example, the extender to check that each element of the metamodel has a representation in the concrete syntax and that there are no elements without representation.\n\n
+            I'm sending you the artefact link: https://www.cin.ufpe.br/~ler/prise/files/attachments/Checklist_Verification_of_completeness,_consistency_and_conflicts.docx"
+    
+    utter_list_of_experts_in_iStar_extensions:
+    - text: "The list of experts is used for consultation, collaboration and clarification of questions during the process.\n\nThe information registered for each expert may include name, contact and area of specialization\n\n
+              I'm sending you the link to the artefact: https://www.cin.ufpe.br/~ler/prise/files/attachments/List_of_experts_in_iStar_extensions.pdf"
+
+    utter_list_of_relationships_between_the_constructs_of_the_extension_and_the_builders_of_iStar:
+    - text: "The main purpose of documenting relationships is to ensure the consistency and compatibility of the new extension with the existing iStar. \nThis documentation helps the team understand how the new builders relate to the existing system.\n\n
+              Artifact link: https://www.cin.ufpe.br/~ler/prise/files/attachments/List_of_relation_between_extension_constructs_and_iStar_constructs.xls"
+    
+    utter_list_of_constructs_to_be_used:
+    - text: "The relevant builders are determined based on the needs of the new extension and a comparison with existing builders in the iStar catalog.\n\n
+            A table of builders to be reused is made, including the name of the builder and a reference to the previous article or document that defines the builder.
+            \n\nI'm sending you the link to the artifact: https://www.cin.ufpe.br/~ler/prise/files/attachments/List_of_constructs_to_be_reused.xls"
+    
+    utter_extension_specification_evolution:
+    - text: "The Evolution of the Extension Specification throughout the PRISE process plays a crucial role in the quality and effectiveness of the proposed extension to the iStar language. \n
+            The different versions of the Specification, such as the 'Analyzed' Version, the 'Concepts Described' Version, the 'Developed' Version and the 'Evaluated' Version, represent distinct stages in the development and validation of the extension.\n\n
+             The 'Analyzed Version' serves as a starting point, providing initial information and guidelines for the extension process. \n
+             The 'Concepts described' version details the concepts to be introduced, ensuring that their meaning is clear. \n
+             The 'Developed' Version represents the implementation of the extension, including the metamodel, concrete syntax and well-formedness rules. \n
+             The 'Evaluated' Version reflects the extension after validation and evaluation, ready for release. \n
+             The evolution of these versions ensures that the extension meets the established guidelines, is consistent and complete, and is free of conflicts, resulting in a high-quality extension.
+             I'm sending you the link to the document: https://www.cin.ufpe.br/~ler/prise/files/attachments/Extension_Specification_Analysed].doc"
+
+    utter_list_of_introduced_constructs:
+    - text: "Through the List of concepts to be introduced, which is an artifact generated in task 5.\n Check other new constructs to be introduced.\n\n It records the new concepts to be introduced in the extension and is updated whenever new constructs need to be added to the extension.\n\n
+            The List of concepts to be introduced is essential to the process, as it records all the new concepts that will be incorporated into the extension. It is updated whenever new constructors need to be introduced. The list helps to keep a clear and organized record of all the concepts to be included in the extension.\n\n
+            I'm sending you the link to the document: https://www.cin.ufpe.br/~ler/prise/files/attachments/List_of_concepts_to_be_introduced.xls"
+  
+    utter_for_what_is_the_directives_artifact:
+    - text: "The guidelines artifact is a fundamental reference to guide the development process of iStar extensions and ensure that they meet the established criteria for quality and consistency.\nI'm sending you the link to the document: https://www.cin.ufpe.br/~ler/prise/files/attachments/Guidelines_of_the_iStar_community.pdf"
+
+    utter_flow_validate_evaluate_extension:
+    - text: "I'm sending you the process flow for evaluating and validating an extension."
+      image: "https://i.ibb.co/QfKZVjQ/validar.png"
+
+    utter_validate_extension:
+    - text: "Validation identifies whether the extension is valid for modeling systems and is also useful for showing users how to use the extension by providing an example of use. Evaluation of an extension is important to get feedback from other researchers on it in order to identify their opinion and corrections to improve it. \n\n 
+        This sub-process consists of three pairs of analysis and their respective corrections of the iStar extension, with two pairs validating it and one pair evaluating it. \n\n
+        1 - The first analysis (validation)/correction pair is carried out by the Extender who uses the proposed iStar extension to model a system. This task represents the use of the proposed iStar extension to identify corrections and improvements to the extension. This can be done by selecting one or more case studies, modeling the scenarios and identifying and documenting limitations.
+        2 - The Extender must describe how to use the iStar extension, i.e. the steps required to use the proposed iStar extension. When the Extender identifies that something is missing or can be improved (such as a node of the extension being the target or source of a proposed link, or there is a need to change the label location of a construct), the respective corrections are made.\n\n
+        3 - The second pair of analyses (validation/correction) involves sending the iStar extension for analysis by experts (in the iStar extensions and in the domain/application area), receiving and analyzing the feedback.\n\n
+        4 - The Extender can apply the experts' corrections/improvements. It is necessary to check that the changes do not introduce further problems of inconsistency, incompleteness or conflicts.\n\n
+        5- The third pair of analysis, evaluation/correction, is made up of the pair of tasks. Evaluate the iStar extension and Apply the evaluation improvements. The feasibility analysis must be carried out by the Extender taking into account the criteria of participant availability for the type of evaluation selected and the research schedule. The evaluation can be done through an experiment, qualitative study or survey.
+        6 - When the evaluation identifies improvements, these should be implemented. Finally, the [validated/evaluated] extension specification is generated by Extender.\n\n" 
+
+    utter_fluxo_validar_avaliar_extensao:
+    - text: "Estou enviando o fluxo do processo de avaliação e validação de uma extensão."
+      image: "https://i.ibb.co/QfKZVjQ/validar.png"
+
+    utter_validar_avaliar_extensao:
+    - text: "A validação identifica se a extensão é válida para modelar sistemas e também é útil para mostrar aos usuários como usar a extensão fornecendo um exemplo de uso. A avaliação de uma extensão é importante para obter feedback de outros pesquisadores sobre ela objetivando identificar sua opinião e correções para melhorá-la. \n\n 
+        Este subprocesso é composto por três pares de análise e as respectivas correções da extensão iStar, sendo a validação realizada por dois pares e a avaliação por um par.\n\n
+        1 - O primeiro par de análise (validação)/correção é realizado pelo Extender que utiliza a extensão iStar proposta para modelar um sistema. Esta tarefa representa a utilização da extensão iStar proposta para identificar correções e melhorias na extensão. Isto pode ser feito selecionando um ou mais estudos de caso, modelando os cenários e identificando e documentando limitações\n\n
+        2 - O Extender deve descrever como usar a extensão iStar, ou seja, as etapas necessárias para usar a extensão iStar proposta. Quando o Extender identifica que algo está faltando ou pode ser melhorado (como um nó da extensão ser alvo ou fonte de um link proposto, ou há necessidade de alterar o local do rótulo de uma construção), as respectivas correções são realizadas.\n\n
+        3 - O segundo par de análises (validação/correção) diz respeito ao envio da extensão iStar para análise dos especialistas (nas extensões iStar e na área de domínio/ aplicação), recepção e análise do feedback.\n\n
+        4 - O Extender pode aplicar as correções/ melhorias dos especialistas. É necessário verificar se as alterações não introduzem mais problemas de inconsistência, incompletude ou conflitos.\n\n
+        5- O terceiro par de análise, avaliação/correção, é composto pelo par das tarefas. Avaliar a extensão iStar e Aplicar as melhorias da avaliação. A análise de viabilidade deverá ser feita pelo Extensor considerando os critérios de disponibilidade dos participantes para o tipo de avaliação selecionado e o cronograma da pesquisa. A avaliação pode ser feita através de uma experiência, estudo qualitativo ou inquérito.\n\n
+        6 - Quando a avaliação identificar melhorias, estas deverão ser aplicadas. Finalmente, a especificação da extensão [validada/ avaliada] é gerada pelo Extender.\n\n"
+
+    utter_process_flow_extension_development:
+    - text: "I'm sending you the flow of the extension development process."
+      image: "https://i.ibb.co/FH6yLC5/developer-extension.png"
+
+    utter_process_extension_development:
+    - text: "1 - Definition of the metamodel: formal definition of the elements and their relationships, as well as the rules that govern the model, and it is necessary to define guidelines for creating this metamodel. At this stage, if there are rules that could not be represented through the metamodel, an extra stage must be carried out, where a list of these validation rules is created. This stage can be defined in parallel with the definition of the concrete syntax.\n
+        2 - Definition of the concrete syntax: Concrete syntax is about the visual or textual presentation of the elements in a model. In this step, a list is generated with the concrete syntax representations of the extension. This stage can be defined in parallel with the definition of the metamodel.\n
+        3 - Checking and correcting for completeness, consistency and conflict problems: In short, this stage is a verification of the previous stages, where a check is made to see if what is in the metamodel appears in the concrete syntax, and vice versa, as well as checking for any conflict of semiotic clarity principles (*). To do this, the extender has a problem-checking checklist, which consists of a set of tables, where the extender can do this check for each of the constructors being included in the extension.\n
+        4 - Creating a tool: This step is optional. When possible and desired, a tool should be developed for the proposed extension, through a new step-by-step process.\n
+        5 - Generate extension specification: The last stage of the extension development process, where a document or set of documents is created that describes the components, rules and operation of the extension in detail."
+        
+    
+    utter_processo_desenvolvimento_de_extensao:
+    - text: "1 -Definição de metamodelo: definição formal dos elementos e suas relações, bem como as regras que governam o modelo, sendo necessário definir diretrizes para criação desse metamodelo. Nessa etapa, se existirem regras que não puderam ser representadas através do metamodelo, é necessário realizar uma etapa extra, onde é criada uma lista com essas regras de validação. Essa etapa pode ser definida em paralelo com a definição da sintaxe concreta.\n
+        2 - Definição da sintaxe concreta: A sintaxe concreta é sobre a apresentação visual ou textual dos elementos em um modelo. Nessa etapa, é gerada uma lista com as representações de sintaxe concreta da extensão. Essa etapa pode ser definida em paralelo com a definição do metamodelo.\n
+        3 - Checagem e correção da existência de problemas de completude, consistência e conflitos: Em resumo, essa etapa é uma verificação das etapas anteriores, onde é feita uma checagem para saber se o que está no metamodelo aparece na sintaxe concreta, e vice-versa, além de verificar se há algum conflito dos princípios de clareza semiótica (*). Para isso, o extensor conta com uma checklist de verificação de problemas, que consta em um conjunto de tabelas, onde o extensor pode fazer essa verificação para cada um dos construtores que está sendo incluído na extensão.\n
+        4 - Criação de uma ferramenta: Essa etapa é opcional. Quando for possível e desejado, deve ser desenvolvida uma ferramenta para extensão proposta, através de um novo passo-a-passo.\n
+        5 - Gerar especificação da extensão: Última etapa do processo de desenvolvimento da extensão, onde é criado um documento ou conjunto de documentos que descrevem detalhadamente os componentes, regras, e o funcionamento da extensão."
+        
+    utter_fluxo_processo_desenvolvimento_de_extensao:
+    - text: "Estou enviando o fluxo do processo de desenvolvimento da extensão."
+      image: "https://i.ibb.co/FH6yLC5/developer-extension.png"
+
+    utter_main_prise_flow:
+    - text: "Estou enviando o fluxo do principal do PRISE para melhor entendimento."
+      image: "https://i.ibb.co/5hy1635/fluxo-processos-1.png"
+      
+    utter_flow_analysis_need_extension:
+    - text: "Estou enviando o fluxo da Análise de Proposta de uma extensão iStar."
+      image: "https://i.ibb.co/bbvvWns/analisar-proposta-de-extensao.png"
+
+    utter_flow_process_steps_description_concepts_istar:
+    - text:  "I'm sending you the process flow so that it's clearer to understand:"
+      image: "https://i.ibb.co/TMSwkGH/fluxo-processos-1.png"
+
+    utter_steps_involved_description_of_extension_concepts_istar:
+    - text: "The steps involved in describing the concepts of the iStar extension are as follows:\n
+        1 - Search and select constructs to be reused. The extender accesses the extensions catalog, available at: https://istarextensions.cin.ufpe.br/ to search for and select the constructs identified in the Extension Specification.\n The extender can choose not to reuse some constructs, as they may be considered unsuitable.\n
+        1.1 - Artifact generated: List of extensions and constructs to be reused from the iStar extension catalog.\n\n
+
+
+        2 - Describe the extension concepts.  This task deals with describing in detail the list of constructors to be introduced and/or reused by the iStar extension. \n It uses the list of concepts to be introduced in the Extension specification and the list of constructors to be reused, generating the List of concepts to be introduced [with description of the concepts], with the meaning of the constructors to be introduced\n
+        2.1 - Artifact generated: List of constructors to be reused with their meanings.\n\n
+
+
+        3 - The extender must analyze how to integrate the extension's constructors with iStar's constructors. This task is related to identifying the relationship between the extension constructs and the iStar constructs.\n
+        3.1 Output: artifact representing the relationship between extension concepts and iStar.\n\n concepts
+
+
+        4 - If there are any problems with how to integrate, the Extender contacts iStar extension specialists.\nThe iStar extension specialist receives and mitigates the problems.\n
+        4.1Input: List of iStar extension specialists.\n
+        6 - The extender receives a response on the problems identified in the previous steps. \nIf the Extender does not receive a response, it must proceed to the next PRISE task and try to mitigate the doubts in other tasks of the process such as validation and evaluation.\n\n
+
+
+        7 - Generate extension specification [concepts described]) joins the [analyzed] extension specification with the artifacts proposed in this subprocess (List of constructs to be reused [with definition of concepts] and List of the relationship between extension and iStar constructs). \nThis sub-process ends with the conceptualized iStar extension.\n
+        7.1 - Artifact generated: Extension specification [Concepts described] together with List of search results, List of references and researchers contacted, List of concepts to be introduced, Modeling and observations, List of concepts to be introduced, List of constructs to be reused, List of concepts to be introduced [with description of concepts], Characteristic/domain model/domain metamodel/application area."
+        
+    utter_there_any_guarantee_of_inclusion_of_new_catalog_extensions:
+    - text:  "One of the final steps in PRISE is to add the created extension to the catalog. If the flowchart is followed, then the extension is guaranteed to be added to the catalog"
+
+
+    utter_how_the_prise_integrates_a_new_builder_with_the_iStar_20:
+    - text:  "PRISE integrates a new builder with iStar through a structured process that aims to ensure that the new build fits effectively and harmoniously into the existing iStar structure"
+    
+    utter_how_prise_evaluates_need_new_extension:
+    - text: "The process of analyzing the need for an extension consists of the following steps:\n\n
+        1 - Study the domain: Carry out a study of the domain or application area to better understand the context of the proposed extension.\n
+        1.1 - An artifact is generated which is a list of references (books, book chapters and articles) identified in the study and, if applicable, the authors contacted.\n\n
+
+
+        2 - Identify the concepts to be introduced by the extension: This task seeks to identify the list of concepts to be introduced. These concepts can be related to a domain/application area or to practical aspects.\n
+        2.1 - Artifact generated: List of concepts to be introduced by the extension. Each concept is pointed to the reference that motivated its choice, whenever possible.\n\n
+
+
+        3 - Consult iStar extension experts: Contact iStar extension experts for insights and guidance on the extension proposal.\n\n
+        4 - Mitigate domain/application area issues: In this task the contacted domain/application area experts respond to the Extender mitigating their domain/application area issues.\n\n
+        5 - If the Extender does not receive a response, they should move on to the next PRISE task and try to mitigate the issues in other tasks of the process, such as validation and evaluation.\n\n
+        6 - The Extender should use the current version of iStar to try to model the new concepts targeted by the extension. These concepts are included in the list of concepts to be introduced.\n
+        6.1 - Artifact generated: The artifact shows the results of the modeling and observations.\n\n
+
+
+        7 - Contact iStar extension experts - This task consists of contacting iStar extension experts to ask questions about using iStar without the extension.\n\n
+        8 - Mitigate issues about using iStar - iStar extension experts contacted to respond to the Extender mitigating their issues about using iStar.\n\n
+        9 - Receive responses on issues - If the Extender does not receive a response, they should proceed to the next PRISE task and try to mitigate the issues in other tasks in the process.\n\n
+        10 - Identify if there are extensions related to the current proposal - The Extender should try to identify if there is an iStar extension proposed to meet their needs.\n The existing iStar extension is considered suitable for their needs when it introduces the concepts they identified in the list of concepts to introduce. \nThis action can be carried out using the iStar extensions catalog available at http://istarextensions.cin.ufpe.br/catalogue/.\n The user must search the catalog by application area and then search by the name of the constructs to be introduced.\n
+        10.1 - Artifact generated: List of iStar extensions from the search that are related to the extension to be proposed.\n\n
+        11 - Generate extension specification. \n
+        11.1 - Artifact generated: List of search results, List of references and researchers contacted, List of concepts to be introduced, Modeling and observations.
+        "
+    utter_advantages_use_prise:
+    - text: "PRISE presents defined and organized tasks, simplifying the process of creating extensions. This process results in extensions that are valid and comprehensive."
+    
+    utter_create_prise_assistance:
+    - text:  "PRISE is a process that generates a step-by-step guide on how to develop extensions, thus indicating the best way to create these extensions effectively."
+    
+    utter_objective_extension_catalog_istar:
+    - text: "The extensions catalog was a need identified during a survey to identify what is important for iStar extension proposals. As a result, the catalog serves as a source for information such as: a set of existing iStar extensions, a set of existing builders, a set of iStar extension authors and a hierarchy between extensions. In general, the catalog was developed to facilitate access to this information"
+    
+    utter_tools_prise:
+    - text: "Yes, PRISE has a tool called PRISE Tool, proposed by PRISE researchers, which can be accessed at https://istarextensions.cin.ufpe.br/prisetool/."
+
+    utter_what_steps_in_the_prise_process:
+    - text: "The PRISE process consists of the following steps:\n\n
+        1 - Analyze the need for an extension. This sub-process consists of
+            verifying the need for the iStar extension. It is important to analyze the
+            need to propose the extension and establish the list of concepts to be introduced.
+            introduced.\n
+            If there is a need for an extension, the process continues with the proposal. \n
+            Otherwise, the process ends without proposing an iStar extension, as there is no need for it. 
+        \n\n
+        2 - This sub-process describes the concepts identified in sub-process 1 in detail.
+            try to identify the constructs to be reused and analyze whether it is possible to
+            constructs to be introduced with the original iStar constructs.
+            iStar. It creates the extension specification.
+        \n\n
+        3 - Develop the iStar extension: This is the main part of PRISE. \nThe Extender should consider the set of guidelines provided by the iStar experts for writing extensions before starting this sub-process.
+        \n\n
+        4 - Validate and evaluate the iStar extension: In this step, the iStar extension is validated and evaluated to ensure its quality and avoid problems.
+        \n\n
+        5 - Check for other new constructs to be introduced. PRISE is an iterative process. Thus, new constructs (different from the set identified in the sub-process)\n
+            1) can be identified during sub-processes 2, 3 and 4 by this task. This task is therefore carried out in parallel during the execution of these three sub-processes. \n
+            When new constructs are identified during an iteration of sub-processes 2, 3 and 4, they are listed by this task to be considered in their next iteration.
+        \n\n   
+        6 - Disseminate the iStar extension. This sub-process details how to make the iStar extension accessible to the community."
+
+    utter_creator_of_prise:
+    - text: "Those responsible for creating PRISE are E. Gonçalves, J. Araujo and J. Castro, during Prof. Enyo José Gonçalves Tavares"
+  
+    utter_process_prise:
+    - text: "PRISE is a process designed to support the creation of iStar language extensions. It is driven by model-based development concepts, reuse of existing iStar extensions and expert guidance. The aim of PRISE is to avoid problems of incompleteness, inconsistency and conflicts in iStar extensions, increasing the quality of proposals. The process can be customized and has been evaluated and validated with expert interviews and research, showing positive results."
+    
+    utter_how_to_access_extension_catalog:
+    - text: "At the link: https://istarextensions.cin.ufpe.br/catalogue/publication/list. PRISE has a sub-process for validating and evaluating the iStar extension, where 4 tests are carried out to verify the use and correctness of the extension. One of these tests involves consulting experts, making the test reliable and the corrections made at the end of the sub-process efficient."
+
+    utter_reuse_constructors:
+    - text: "Yes, PRISE searches for constructors that can be reused during the sub-process of describing the concepts of the iStar extension. This search is guided by the extensions catalog, created by PRISE researchers, and can be accessed at https://istarextensions.cin.ufpe.br/catalogue/."
+
+    utter_who_was_your_programmer:
+    - text: "I was developed by Erlânio Freire."
+    
+    utter_aguarde_resposta:
+    - text: "Ops! Espera um segundo que estou analisando sua pergunta..." 
+
+    utter_want_to_know_more_about_prise:
+    - text: "PRISE is a process to support the creation of iStar extensions that is driven by model-based development concepts, reuse of existing iStar extensions and expert guidance This process can be customized."
+
+    utter_welcome:
+    - text: "I'm priseBot, how can I help you?"
+    - text: "Hello, how can I help you?"
+
+    utter_istar_en:
+    - text: "The iStar modeling language is a goal-based language used to model requirements in industrial and academic projects. It allows the representation of goals, tasks, agents and dependencies between them, providing a clear view of the system's objectives and the interactions between the elements involved.\n\nThe iStar language can be extended to incorporate new constructs related to a specific domain or to adjust it to practical situations during the requirements modeling process."
+
+    utter_problems_prise:
+    - text: "There are several problems identified in extensions created before PRISE, which their creators have tried to solve: \n- Incomplete or non-existent concept definitions;\n- Level of syntax represented tending towards concrete syntax and abstract syntax being forgotten;\n- Lack of compatibility between metamodel and concrete syntax;\n- Conflicts in the principle of semiotic clarity."
+
+# RESPOSTAS EM PORTUGUÊS   
+
+    utter_fluxo_analise_necessidade_extensão:
+    - text: "Estou enviando o fluxo principal da Análise de Proposta de uma extensão iStar."
+      image: "https://i.ibb.co/bbvvWns/analisar-proposta-de-extensao.png"
+
+    utter_fluxo_principal_prise:
+    - text: "Estou enviando o fluxo do principal do PRISE para melhor entendimento."
+      image: "https://i.ibb.co/5hy1635/fluxo-processos-1.png"
+
+    utter_fluxo_processo_passos_descricao_conceitos_istar:
+    - text: "Estou enviando fluxo do processo para que o entendimento torne-se mais claro:"
+      image: "https://i.ibb.co/TMSwkGH/fluxo-processos-1.png"
+    
+    utter_passos_envolvidos_descricao_dos_conceitos_extensão_istar:
+    - text: "Os passos envolvidos na descrição dos conceitos da extensão iStar são os seguintes:\n
+          1 - Pesquisar e selecionar construções a serem reutilizadas. O extensor acessa o catálogo de extensões, disponível em: https://istarextensions.cin.ufpe.br/ para pesquisar e selecionar os construtores identificados na Especifícação da Extensão.\n O extensor pode pode optar por não reutilizar alguma construção, pois ela pode ser considerada inadequada.\n
+          1.1 - Artefato gerado: Lista de extensões e construções a serem reutilizadas do catálogo de extensões iStar.\n\n
+
+          2 - Descrever os conceitos da extensão.  Esta tarefa trata de descrever detalhadamente a lista de construtores a serem introduzidos e/ou reutilizadas pela extensão iStar. \n Utiliza a lista de conceitos a serem introduzidos na especificação da Extensão e a lista de construtores a serem reutilizados, gerando a Lista de conceitos a serem introduzidos [com descrição dos conceitos], com o significado dos construtores a serem introduzidas\n
+          2.1 - Artefato gerado: Lista de construtores a serem reutilizados com os seus significados.\n\n
+
+          3 - O extensor deve analisar como integrar os construtores da extensão com os construtores do iStar. Esta tarefa está relacionada com a identificação da relação entre os construtos de extensão e os construtos iStar.\n
+          3.1 Saída: artefato representa a relação entre os conceitos de extensão e os conceitos iStar.\n\n
+
+          4 - Caso haja algum problema de como integrar, o Extender contata especialistas em extensões iStar.\nO Especialista em extensões iStar recebe e mitiga os problemas.\n
+          4.1Entrada: LIsta de especialistas em extenções iStar.\n
+          6 - O extensor recebe uma resposta sobre os problemas identificados nos passos anteriores. \nCaso o Extensor não receba resposta, deverá prosseguir para a próxima tarefa do PRISE e tentar mitigar as dúvidas em outras tarefas do processo como a validação e avaliação.\n\n
+
+          7 - Gerar especificação de extensão [conceitos descritos]) junta a especificação de extensão [analisada] com os artefatos propostos neste subprocesso (Lista de construções a serem reutilizadas [com definição de conceitos] e Lista da relação entre extensão e construções iStar). \nEste subprocesso termina com a extensão iStar conceituada.\n
+          7.1 - Artefato gerado: Especificação de extensão [Conceitos descritos] junta a Lista dos resultados da pesquisa, Lista das referências e dos investigadores contactados, Lista dos conceitos a introduzir, Modelização e observações, Lista dos conceitos a introduzir, Lista das construções a reutilizar, Lista dos conceitos a introduzir [com descrição dos conceitos], Característica/modelo de domínio/metamodelo do domínio/área de aplicação."
+
+    utter_analisa_necessidade_de_extensão:
+    - text: "O processo de análise da necessidade de extensão é composto pelos seguintes passos:\n\n
+          1 - Estudar o domínio: Realizar um estudo do domínio ou área de aplicação para compreender melhor o contexto da extensão proposta.\n
+          1.1 - É gerado um artefato que é uma lista de referências (livros, capítulos de livros e artigos) identificadas no estudo e, se aplicável, os autores contactados.\n\n
+
+          2 - Identifique os conceitos a serem introduzidos pela extensão: Esta tarefa busca identificar a lista de conceitos a serem introduzidos. Esses conceitos podem estar relacionados a um domínio/área de aplicação ou a aspectos práticos.\n
+          2.1 - Artegato gerado: Lista dos conceitos a serem introduzidos pela extensão. Cada conceito é apontado para a referência que motivou a sua escolha, sempre que possível.\n\n
+
+          3 - Consultar especialistas em extensões iStar: Entrar em contato com especialistas em extensões iStar para obter insights e orientações sobre a proposta de extensão.\n\n
+          4 - Mitigar questões sobre o domínio/área de aplicação: Nesta tarefa os especialistas contatados do domínio/área de aplicação respondem ao Extender mitigando seus problemas sobre o domínio/área de aplicação.\n\n
+          5 - Se o Extensor não receber uma resposta, deve passar à tarefa seguinte do PRISE e tentar atenuar as questões noutras tarefas do processo, como a validação e a avaliação.\n\n
+          6 - O Extensor deve utilizar a versão atual do iStar para tentar modelar os novos conceitos visados pela extensão. Estes conceitos estão presentes na lista de conceitos a introduzir.\n
+          6.1 - Atefato gerado: O artefacto mostra os resultados da modelização e das observações.\n\n
+
+          7 - Contate especialistas em extensões iStar - Esta tarefa consiste em contactar especialistas em extensões iStar para colocar questões sobre a utilização do iStar sem a extensão.\n\n
+          8 - Mitigar problemas sobre o uso do iStar - Os especialistas em extensões iStar contataram para responder ao Extender mitigando seus problemas sobre o uso do iStar.\n\n
+          9 - Receba respostas sobre problemas - Se o Extensor não receber uma resposta, deve prosseguir para a tarefa seguinte do PRISE e tentar atenuar as questões noutras tarefas do processo.\n\n
+          10 - Identifique se existem extensões relacionadas à proposta atual - O Extensor deve tentar identificar se existe uma extensão iStar proposta para responder às suas necessidades.\n A extensão iStar existente é considerada adequada para as suas necessidades quando introduz os conceitos que identificou na lista de conceitos a introduzir. \nEsta ação pode ser realizada com recurso ao catálogo de extensões iStar disponível em http://istarextensions.cin.ufpe.br/catalogue/.\n O utilizador deve pesquisar no catálogo por área de aplicação e depois pesquisar pelo nome das construções a introduzir.\n
+          10.1 - Artefato gerado: Lista de extensões iStar da pesquisa que estão relacionadas à extensão a ser proposta.\n\n
+          11 - Gerar especificação de extensão. \n
+          11.1 - Artefato gerado:  Lista dos resultados da pesquisa, Lista de referências e investigadores contactados, Lista de conceitos a introduzir, Modelização e observações.
+          "
+    utter_quais_passos_do_processo_prise:
+    - text: "O processo PRISE consiste nos seguintes passos:\n\n
+        1 - Analise a necessidade de prorrogação. Este subprocesso consiste
+            em verificar a necessidade da extensão iStar. É importante analisar a
+            necessidade de propor a extensão e estabelecer a lista dos conceitos a serem
+            introduzidos.\n
+            Caso haja necessidade de prorrogação, a execução do processo continua com a proposta. \n
+            Caso contrário, o processo termina sem propor uma extensão iStar, pois não há necessidade dela. 
+        \n\n
+        2 -  Este subprocesso descreve detalhadamente os conceitos identificados no subprocesso 1. É importante
+            tentar identificar os construtos a serem reutilizados e analisar se é possível
+            relacionar os construtos a serem introduzidos com os construtos originais do
+            iStar. Ele cria a especificação da extensão.
+        \n\n
+        3 - Desenvolva a extensão iStar: Esta é a parte principal do PRISE. \nO Extensor deverá considerar o conjunto de diretrizes fornecidas pelos especialistas do iStar para a elaboração de extensões antes de iniciar este subprocesso.
+        \n\n
+        4 - Validar e avaliar a extensão iStar: Neste passo, a extensão iStar é validada e avaliada para garantir sua qualidade e evitar problemas.
+        \n\n
+        5 - Confira outros novos construtos a serem introduzidos. PRISE é um processo iterativo Assim, novos construtos (diferentes do conjunto identificados no subprocesso)\n
+            1) podem ser identificados durante os subprocessos 2, 3 e 4 por esta tarefa. Assim, esta tarefa é realizada em paralelo durante a execução destes três subprocessos. \n
+            Quando novos construtos são identificados durante uma iteração dos subprocessos 2, 3 e 4, eles são listados por esta tarefa para serem considerados na próxima iteração deles.
+        \n\n   
+        6 - Divulgue a extensão iStar. Este subprocesso detalha como tornar a extensão iStar acessível à comunidade."
+
+    utter_please_rephrase:
+    - text: I'm sorry, I didn't quite understand that. Could you rephrase?
+
+ #   utter_default:
+ #   - text: Desculpe, não consegui entender sua pergunta. Poderia reformula-la?
+
+    utter_quem_foi_seu_programador:
+    - text: "Fui desenvolvido por Erlânio Freire."
+
+    utter_quer_saber_mais_sobre_prise:
+    - text:  "O PRISE é um processo para apoiar a criação de extensões iStar que é conduzido por conceitos de desenvolvimento baseados em modelos, reutilização de extensões iStar existentes e orientações de especialistas Este processo pode ser personalizado"
+
+    utter_criador_do_prise:
+    - text: "Os responsáveis pela criação do PRISE são E. Gonçalves, J. Araujo e J. Castro, durante o doutorado do Prof. Enyo José Gonçalves Tavares"
+
+
+    utter_processo_prise:
+    - text: "O 'PRISE' é um processo desenvolvido para apoiar a criação 
+            de extensões da linguagem iStar. 
+            Ele é conduzido por conceitos de desenvolvimento baseados em modelos, 
+            reutilização de extensões iStar existentes e
+            orientações de especialistas. O objetivo do PRISE é evitar problemas de 
+            incompletude, inconsistência e conflitos nas
+            extensões iStar, aumentando a qualidade das propostas. O processo pode ser 
+            personalizado e foi avaliado e validado com 
+            entrevistas e pesquisa com especialistas, mostrando resultados positivos."
+
+    utter_como_acessar_catalogo_de_extensoes:
+    - text: "Através do link: https://istarextensions.cin.ufpe.br/catalogue/publication/list"
+
+    utter_existe_alguma_garantia_inclusao_de_novas_extensoes_catalogo:
+    - text: "Um dos passos finais do PRISE é adicionar a extensão criada ao catálogo. Caso seja seguido o fluxograma, então terá a garantia da extensão ser adicionada ao catálogo
+
+        \n\nIdentificação de Correções e Melhorias: Durante o uso da extensão iStar em situações reais, devem ser identificadas correções e melhorias que podem ser aplicadas para aprimorar a extensão.
+
+        \n\nIntegração com Construções iStar: A extensão deve ser avaliada quanto à sua capacidade de se integrar eficazmente às construções existentes do iStar, garantindo que não introduza inconsistências, incompletudes ou conflitos.
+
+        \n\nFeedback de Especialistas: A extensão iStar deve ser submetida a especialistas, que podem ser especialistas em extensões iStar ou no domínio/aplicação relevante. O feedback desses especialistas é fundamental para avaliar a extensão.
+
+        \n\nAplicação das Sugestões de Especialistas: As sugestões e correções fornecidas pelos especialistas devem ser aplicadas à extensão, com cuidado para garantir que as mudanças não criem novos problemas de consistência, incompletude ou conflito.
+
+        \n\nMétodos de Avaliação: A avaliação da extensão pode ser conduzida por meio de diferentes métodos, como experimentação, estudos de caso qualitativos ou pesquisas. Os métodos devem seguir as boas práticas da área de engenharia de software.
+
+        \n\nDocumentação dos Resultados: Os resultados da avaliação, incluindo exemplos de uso da extensão e os resultados de experimentos, estudos de caso ou pesquisas, devem ser devidamente documentados.
+
+        \n\nAplicação das Melhorias Identificadas: As melhorias identificadas durante a avaliação devem ser aplicadas à extensão para garantir seu aprimoramento contínuo.
+
+          \n\nEsses critérios abrangentes garantem que a extensão iStar seja validada de maneira rigorosa, levando em consideração sua eficácia na modelagem de sistemas reais, sua integração com as construções do iStar e o feedback de especialistas. Isso resulta em extensões iStar robustas e eficazes que atendem às necessidades do domínio ou área de aplicação específicos."
+
+    utter_como_o_prise_integra_um_novo_construtor_com_o_iStar_20:
+    - text: "O PRISE integra um novo construtor com o iStar por meio de um processo estruturado que visa garantir que a nova construção se encaixe de forma eficaz e harmoniosa na estrutura existente do iStar"
+
+
+    utter_como_o_prise_funciona:
+    - text: "O PRISE segue uma sequência de passos para desenvolver extensões.
+
+       Análise da Proposta de Extensão
+
+        Esta etapa envolve a análise da proposta de extensão. Se a proposta de extensão já existir, a nova extensão não será desenvolvida.
+
+        Descrição dos Conceitos da Extensão iStar
+
+        Nesta fase, busca-se e seleciona construtores a serem reutilizados, com o apoio de especialistas na área do iStar. Isso contribui para a conceitualização da proposta de extensão.
+
+        Desenvolvimento da Extensão iStar
+
+        Durante este processo, são definidos metamodelos, regras de validação e sintaxe. Problemas identificados são analisados e corrigidos, e a extensão é implementada na ferramenta de modelagem. Após a implementação, a extensão é testada, e a especificação da extensão é gerada.
+
+        Validação e Avaliação da Extensão iStar
+
+        Nesta etapa, a extensão iStar é utilizada, e quaisquer melhorias e correções necessárias são aplicadas. Consultas são feitas a especialistas na área, e a extensão é avaliada. As melhorias sugeridas durante a avaliação também são implementadas.
+
+        Publicação da Extensão iStar
+
+        Finalmente, a extensão iStar é adicionada ao catálogo. Os especialistas na área são notificados sobre sua disponibilidade, e a extensão é publicada.
+        "
+
+    utter_vantagens_uso_prise:
+    - text: "O PRISE apresenta tarefas definidas e organizadas, simplificando o processo de criação de extensões. Este processo resulta em extensões que são válidas e abrangentes."
+    
+    utter_objetivo_catalogo_de_extensoes_istar:
+    - text: "O catálogo de extensões foi uma necessidade enxergada durante uma pesquisa para identificar o que é importante para propostas de extensões iStar. Com isso, o catálogo funciona como fonte para informações como: Conjunto de extensões iStar existentes, conjunto de construtores existentes, conjunto de autores de extensões iStar e uma hierarquia entre as extensões. De forma geral, o catálogo foi desenvolvido como forma de facilitar o acesso a essas informações"
+
+    utter_problemas_prise:
+    - text: "Existem diversos problemas identificados em extensões criadas
+        antes do PRISE, no qual seus criadores se atentaram em resolver, sendo eles: 
+        - Definição de conceitos incompletas ou inexistentes;
+        - Nível de sintaxe representada tendendo a sintaxe concreta e sintaxe abstrata ser esquecida;
+        - Falta de compatibilidade entre metamodelo e sintaxe concreta;
+        - Conflitos no princípio da clareza semiótica."
+
+    utter_boas_vindas:
+    - text: "Olá, tudo bem?"
+    - text: "Sou o priseBot, como posso te ajudar?"
+
+    utter_conflitos_semiotica:
+    - text: " Para lidar com possíveis conflitos na extensão, o extensor conta com um checklist de verificação de problemas, onde cada construtor deve ser verificado."
+
+    utter_reutiliza_construtores:
+    - text: "Sim, o PRISE busca por construtores que podem ser reutilizados durante o subprocesso de descrição dos conceitos da extensão iStar. Essa busca é orientada pelo catálogo de extensões, criado pelos pesquisadores do PRISE, e pode ser acessado em https://istarextensions.cin.ufpe.br/catalogue/."
+    utter_istar:
+    - text: "A linguagem de modelagem iStar é uma linguagem baseada em objetivos utilizada para modelar requisitos em projetos industriais e acadêmicos. \n\nEla permite a representação de metas, tarefas, agentes e dependências entre eles, fornecendo uma visão clara dos objetivos do sistema e das interações entre os elementos envolvidos.\n\nA linguagem iStar pode ser estendida para incorporar novas construções relacionadas a um domínio específico ou para ajustá-la a situações práticas durante o processo de modelagem de requisitos."
+
+    utter_ferramentas_prise:
+    - text: "Sim, o PRISE possui uma ferramenta chamada PRISE Tool, proposta pelos pesquisadores do PRISE, que pode ser acessada por https://istarextensions.cin.ufpe.br/prisetool/"
+
+    utter_como_funciona_ferramenta_prise:
+    - text: "A ferramenta PRISE Tool, funciona como uma estrutura de organização para o desenvolvimento da extensão, onde cada passo descrito deve ser submetido pelo Extender. O PRISE Tool também faz a avaliação da extensão, sendo um processo que exige espera do Extender"
+
+    utter_auxilio_criacao_prise:
+    - text: "O PRISE é um processo que gera um passo a passo sobre como desenvolver extensões, indicando assim o melhor caminho para criar essas extensões de forma eficaz."
+    
+    utter_erlanio:
+    - text: "Meu programador!"
+
+    utter_algo_mais:
+    - text: "Posso ajudar em mais alguma coisa?"
+
+#ARTEAFTOS
+    utter_para_que_serve_o_artefato_de_diretrizes:
+    - text: "O artefato de diretrizes é uma referência fundamental para guiar o processo de desenvolvimento de extensões iStar e garantir que elas atendam aos critérios estabelecidos para qualidade e consistência.\nEstou te enviando o link do documento: https://www.cin.ufpe.br/~ler/prise/files/attachments/Guidelines_of_the_iStar_community.pdf"
+
+    utter_lista_de_construtores_introduzidos:
+    - text: "Através da Lista de conceitos a serem introduzidos, que é um artefato gerado na tarefa 5.\n Check other new constructs to be introduced.\n\n Ela registra os novos conceitos a serem introduzidos na extensão e é atualizada sempre que novos construtores precisam ser adicionados à extensão.\n\n
+            A Lista de conceitos a serem introduzidos é essencial para o processo, pois registra todos os novos conceitos que serão incorporados à extensão. Ela é atualizada sempre que novos construtores precisam ser introduzidos. A lista ajuda a manter um registro claro e organizado de todos os conceitos a serem incluídos na extensão.\n\n
+            Estou te enviando o link do documento: https://www.cin.ufpe.br/~ler/prise/files/attachments/List_of_concepts_to_be_introduced.xls"
+
+    utter_evolucao_da_especificacao_da_extensao:
+    - text: "A Evolução da Especificação da Extensão ao longo do processo PRISE desempenha um papel crucial na qualidade e eficácia da extensão proposta para a linguagem iStar. \n
+            As diferentes versões da Especificação, como a Versão 'Analisada', Versão 'Conceitos descritos', Versão 'Desenvolvida' e Versão 'Avaliada', representam estágios distintos do desenvolvimento e validação da extensão.\n\n
+             A 'Versão Analisada' serve como ponto de partida, fornecendo informações iniciais e orientações para o processo de extensão. \n
+             A Versão 'Conceitos descritos' detalha os conceitos a serem introduzidos, garantindo que seu significado seja claro. \n
+             A Versão 'Desenvolvida' representa a implementação da extensão, incluindo metamodelo, sintaxe concreta e regras de boa formação. \n
+             A Versão 'Avaliada' reflete a extensão após validação e avaliação, pronta para divulgação. \n
+             A evolução dessas versões assegura que a extensão atenda às diretrizes estabelecidas, seja consistente e completa, e esteja livre de conflitos, resultando em uma extensão de alta qualidade.
+             Estou te enviando o link do documento: https://www.cin.ufpe.br/~ler/prise/files/attachments/Extension_Specification_Analysed].doc"
+
+    utter_lista_de_construtores_a_ser_reutilizados:
+    - text: "Os construtores relevantes são determinados com base nas necessidades da nova extensão e na comparação com os construtores existentes no catálogo iStar.\n\n
+            É feito uma tabela de construtores a serem reutilizados, incluindo o nome do construtor e uma referência ao artigo ou documento anterior que define o construtor.
+            \n\nEstou te enviando o link do artefato: https://www.cin.ufpe.br/~ler/prise/files/attachments/List_of_constructs_to_be_reused.xls"
+    
+    utter_lista_de_relacoes_entre_os_construtores_da_extensao_e_os_construtores_do_iStar:
+    - text:  "O propósito principal da documentação das relações é garantir a coerência e a compatibilidade da nova extensão com o iStar existente. \nEssa documentação ajuda a equipe a entender como os novos construtores se relacionam com o sistema existente.\n\n
+              Link do artefato: https://www.cin.ufpe.br/~ler/prise/files/attachments/List_of_relation_between_extension_constructs_and_iStar_constructs.xls"
+
+    utter_lista_de_especialistas_em_extensoes_iStar:
+    - text:  "A lista de especialistas é usada para consulta, colaboração e esclarecimento de dúvidas durante o processo.\n\nAs informações registradas para cada especialista podem incluir nome, contato e área de especialização\n\n
+              Estou te enviando o link do artefato:  https://www.cin.ufpe.br/~ler/prise/files/attachments/List_of_experts_in_iStar_extensions.pdf"
+    
+    utter_metamodelo_regras_de_boa_formacao:
+    - text:  "Durante o subprocesso 3, de desenvolvimento da extensão iStar, o artefato “Metamodelo iStar e regras de boa formação”/ ”Lista de representação da sintaxe concreta da extensão” é definido.
+              \n\nEstou te enviando o link do artefato: https://www.cin.ufpe.br/~ler/prise/files/attachments/Concrete_syntax_representations.doc"
+
+    utter_checklist_verificacao_problemas:
+    - text: "O artefato “checklist de verificação de problemas”, gerado durante a etapa de desenvolvimento da extensão, auxilia na verificação da existência de problemas de consistência, completude e conflitos, permitindo , por exemplo, que o extensor verifique se cada elemento do metamodelo tem uma representação na sintaxe concreta e se não há elementos sem representação.\n\n
+            Estou te enviando o link do artefato: https://www.cin.ufpe.br/~ler/prise/files/attachments/Checklist_Verification_of_completeness,_consistency_and_conflicts.docx"
+  
+  actions:
+    - action_search 
+    - action_default_fallback
+    - action_resposta
+    - action_buscar_extensao
+  session_config:
+    session_expiration_time: 60
+    carry_over_slots_to_new_session: true
