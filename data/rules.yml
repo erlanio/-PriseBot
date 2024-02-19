@@ -1,0 +1,18 @@
+version: "3.1"
+
+rules:
+- rule: qual construtor
+  steps:
+  - intent: construtores
+  - action: action_search
+
+- rule: out-of-scope
+  steps:
+  - intent: out_of_scope
+  - action: action_default_fallback
+
+- rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+  steps:
+  - intent: nlu_fallback
+  - action: action_default_fallback
+

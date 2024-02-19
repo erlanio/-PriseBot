@@ -1,0 +1,187 @@
+version: "3.1"
+
+stories:
+- story: nlu_fallback
+  steps:
+  - intent: nlu_fallback
+  - action: action_default_fallback
+
+#story en
+- story: what_steps_in_the_prise_process
+  steps:
+  - intent: what_steps_in_the_prise_process
+  - action: utter_what_steps_in_the_prise_process
+  - intent: main_prise_flow
+  - action: utter_main_prise_flow
+
+- story: creator_of_prise
+  steps:
+  - intent: creator_of_prise
+  - action: utter_creator_of_prise
+
+- story: how_to_access_extension_catalog
+  steps:
+  - intent: how_to_access_extension_catalog
+  - action: utter_how_to_access_extension_catalog
+
+- story: process_prise
+  steps:
+  - intent: process_prise
+  - action: utter_process_prise
+
+- story: who_was_your_programmer
+  steps:
+  - intent: who_was_your_programmer
+  - action: utter_who_was_your_programmer
+
+- story: extensoes
+  steps:
+  - intent: extensoes
+    entities:
+    - extensao: extensao
+  - action: action_buscar_extensao
+
+- story: constructor
+  steps:
+  - intent: constructor
+    entities:
+    - construtor: constructor
+  - action: action_search
+
+- story: want_to_know_more_about_prise
+  steps:
+  - intent: want_to_know_more_about_prise
+  - action: utter_want_to_know_more_about_prise
+
+- story: welcome
+  steps:
+  - intent: welcome
+  - action: utter_welcome
+
+- story: istar_en
+  steps:
+  - intent: istar_en
+  - action: utter_istar_en
+
+- story: problems_prise
+  steps:
+  - intent: problems_prise
+  - action: utter_problems_prise
+
+- story: reuse_constructors
+  steps:
+  - intent: reuse_constructors
+  - action: utter_reuse_constructors
+
+- story: tools_prise
+  steps:
+  - intent: tools_prise
+  - action: utter_tools_prise
+
+- story: objective_extension_catalog_istar
+  steps:
+  - intent: objective_extension_catalog_istar
+  - action: utter_objective_extension_catalog_istar
+
+- story: create_prise_assistance
+  steps: 
+  - intent: create_prise_assistance
+  - action: utter_create_prise_assistance
+
+- story: advantages_use_prise
+  steps:
+  - intent: advantages_use_prise
+  - action: utter_advantages_use_prise
+
+- story: how_prise_evaluates_need_new_extension
+  steps:
+  - intent: how_prise_evaluates_need_new_extension
+  - action: utter_how_prise_evaluates_need_new_extension
+  - intent: flow_analysis_need_extension
+  - action: utter_flow_analysis_need_extension
+
+- story: how_the_prise_integrates_a_new_builder_with_the_iStar_20
+  steps:
+  - intent: how_the_prise_integrates_a_new_builder_with_the_iStar_20
+  - action: utter_how_the_prise_integrates_a_new_builder_with_the_iStar_20
+
+
+- story: there_any_guarantee_of_inclusion_of_new_catalog_extensions
+  steps:
+  - intent: there_any_guarantee_of_inclusion_of_new_catalog_extensions
+  - action: utter_there_any_guarantee_of_inclusion_of_new_catalog_extensions
+
+- story: steps_involved_description_of_extension_concepts_istar
+  steps:
+  - intent: steps_involved_description_of_extension_concepts_istar
+  - action: utter_steps_involved_description_of_extension_concepts_istar
+  - intent: flow_process_steps_description_concepts_istar
+  - action: utter_flow_process_steps_description_concepts_istar
+
+- story: flow_process_steps_description_concepts_istar
+  steps:
+  - intent: flow_process_steps_description_concepts_istar
+  - action: utter_flow_process_steps_description_concepts_istar
+
+- story: flow_analysis_need_extension
+  steps:
+  - intent: flow_analysis_need_extension
+  - action: utter_flow_analysis_need_extension
+
+- story: main_prise_flow
+  steps:
+  - intent: main_prise_flow
+  - action: utter_main_prise_flow
+
+- story: process_extension_development
+  steps:
+  - intent: process_extension_development
+  - action: utter_process_extension_development
+  - action: utter_process_flow_extension_development
+
+- story: validate_extension
+  steps:
+  - intent: validate_extension
+  - action: utter_validate_extension
+  - action: utter_flow_validate_evaluate_extension
+
+- story: metamodel_good_rules
+  steps:
+  - intent: metamodel_good_rules
+  - action: utter_metamodel_good_rules
+
+
+- story: checklist_problems
+  steps:
+  - intent: checklist_problems
+  - action: utter_checklist_problems
+
+- story: list_of_experts_in_iStar_extensions
+  steps:
+  - intent: list_of_experts_in_iStar_extensions
+  - action: utter_list_of_experts_in_iStar_extensions
+
+- story: list_of_relationships_between_the_constructs_of_the_extension_and_the_builders_of_iStar
+  steps:
+  - intent: list_of_relationships_between_the_constructs_of_the_extension_and_the_builders_of_iStar
+  - action: utter_list_of_relationships_between_the_constructs_of_the_extension_and_the_builders_of_iStar
+
+- story: list_of_constructs_to_be_used
+  steps:
+  - intent: list_of_constructs_to_be_used
+  - action: utter_list_of_constructs_to_be_used
+
+- story: extension_specification_evolution
+  steps:
+  - intent: extension_specification_evolution
+  - action: utter_extension_specification_evolution
+
+- story: list_of_introduced_constructs
+  steps:
+  - intent: list_of_introduced_constructs
+  - action: utter_list_of_introduced_constructs
+
+- story: for_what_is_the_directives_artifact
+  steps:
+  - intent: for_what_is_the_directives_artifact
+  - action: utter_for_what_is_the_directives_artifact

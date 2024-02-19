@@ -1,0 +1,188 @@
+version: "3.1"
+
+stories:
+- story: nlu_fallback
+  steps:
+  - intent: nlu_fallback
+  - action: action_default_fallback
+
+#story pt
+- story: extensoes
+  steps:
+  - intent: extensoes
+    entities:
+    - extensao: extensao
+  - action: action_buscar_extensao
+
+- story: construtores
+  steps:
+  - intent: construtores
+    entities:
+    - construtor: construtor
+  - action: action_search
+
+- story: para_que_serve_o_artefato_de_diretrizes
+  steps:
+  - intent: para_que_serve_o_artefato_de_diretrizes
+  - action: utter_para_que_serve_o_artefato_de_diretrizes
+
+- story: lista_de_construtores_introduzidos
+  steps:
+  - intent: lista_de_construtores_introduzidos
+  - action: utter_lista_de_construtores_introduzidos
+
+- story: evolucao_da_especificacao_da_extensao
+  steps:
+  - intent: evolucao_da_especificacao_da_extensao
+  - action: utter_evolucao_da_especificacao_da_extensao
+
+- story: lista_de_construtores_a_ser_reutilizados
+  steps:
+  - intent: lista_de_construtores_a_ser_reutilizados
+  - action: utter_lista_de_construtores_a_ser_reutilizados
+
+- story: lista_de_relacoes_entre_os_construtores_da_extensao_e_os_construtores_do_iStar
+  steps:
+  - intent: lista_de_relacoes_entre_os_construtores_da_extensao_e_os_construtores_do_iStar
+  - action: utter_lista_de_relacoes_entre_os_construtores_da_extensao_e_os_construtores_do_iStar
+
+- story: lista_de_especialistas_em_extensoes_iStar
+  steps:
+  - intent: lista_de_especialistas_em_extensoes_iStar
+  - action: utter_lista_de_especialistas_em_extensoes_iStar
+
+- story: metamodelo_regras_de_boa_formacao
+  steps:
+  - intent: metamodelo_regras_de_boa_formacao
+  - action: utter_metamodelo_regras_de_boa_formacao
+
+- story: checklist_verificacao_problemas
+  steps:
+  - intent: checklist_verificacao_problemas
+  - action: utter_checklist_verificacao_problemas
+
+- story: utter_quem_foi_seu_programador
+  steps:
+  - intent: quem_foi_seu_programador
+  - action: utter_quem_foi_seu_programador
+  - action: utter_algo_mais
+
+- story: utter_processo_prise
+  steps:
+  - intent: processo_prise
+  - action: utter_processo_prise
+
+
+
+- story: como_acessar_catalogo_de_extensoes
+  steps:
+  - intent: como_acessar_catalogo_de_extensoes
+  - action: utter_como_acessar_catalogo_de_extensoes
+- story: existe_alguma_garantia_inclusao_de_novas_extensoes_catalogo
+  steps:
+  - intent: existe_alguma_garantia_inclusao_de_novas_extensoes_catalogo
+  - action: utter_existe_alguma_garantia_inclusao_de_novas_extensoes_catalogo
+
+
+- story: como_o_prise_integra_um_novo_construtor_com_o_iStar_20
+  steps:
+  - intent: como_o_prise_integra_um_novo_construtor_com_o_iStar_20
+  - action: utter_como_o_prise_integra_um_novo_construtor_com_o_iStar_20
+
+
+- story: como_o_prise_funciona
+  steps: 
+  - intent: como_o_prise_funciona
+  - action: utter_como_o_prise_funciona
+
+- story: vantagens_uso_prise
+  steps:
+  - intent: vantagens_uso_prise
+  - action: utter_vantagens_uso_prise
+
+- story: auxilio_criacao_prise
+  steps:
+  - intent: auxilio_criacao_prise
+  - action: utter_auxilio_criacao_prise
+
+- story: objetivo_catalogo_de_extensoes_istar
+  steps:
+  - intent: objetivo_catalogo_de_extensoes_istar
+  - action: utter_objetivo_catalogo_de_extensoes_istar
+
+- story: como_funciona_ferramenta_prise
+  steps:
+  - intent: como_funciona_ferramenta_prise
+  - action: utter_como_funciona_ferramenta_prise
+
+- story: ferramentas_prise
+  steps:
+  - intent: ferramentas_prise
+  - action: utter_ferramentas_prise
+
+- story: teste path
+  steps:
+  - intent: boas_vindas
+  - action: utter_boas_vindas
+
+- story: istar path
+  steps:
+  - intent: istar
+  - action: utter_istar
+
+
+- story: utter_conflitos_semiotica
+  steps:
+  - intent: conflitos_semiotica
+  - action: utter_conflitos_semiotica
+
+- story: reutiliza_construtores
+  steps: 
+  - intent: reutiliza_construtores
+  - action: utter_reutiliza_construtores
+
+- story: problemas_prise path
+  steps:
+  - intent: problemas_prise
+  - action: utter_problemas_prise
+
+- story: erlanio path
+  steps:
+  - intent: erlanio
+  - action: utter_erlanio
+  - action: utter_algo_mais
+  
+- story: criador_prise
+  steps:
+  - intent: criador_do_prise
+  - action: utter_criador_do_prise
+
+- story: quais_passos_do_processo_prise
+  steps:
+  - intent: quais_passos_do_processo_prise
+  - action: utter_quais_passos_do_processo_prise
+  - action: utter_fluxo_principal_prise
+
+- story: analisa_necessidade_de_extensão
+  steps:
+  - intent: analisa_necessidade_de_extensão
+  - action: utter_analisa_necessidade_de_extensão
+  - action: utter_fluxo_analise_necessidade_extensão
+
+- story: passos_envolvidos_descricao_dos_conceitos_extensão_istar
+  steps:
+  - intent: passos_envolvidos_descricao_dos_conceitos_extensão_istar
+  - action: utter_passos_envolvidos_descricao_dos_conceitos_extensão_istar
+  - action: utter_fluxo_processo_passos_descricao_conceitos_istar
+
+- story: processo_desenvolvimento_de_extensao
+  steps:
+  - intent: processo_desenvolvimento_de_extensao
+  - action: utter_processo_desenvolvimento_de_extensao
+  - action: utter_fluxo_processo_desenvolvimento_de_extensao
+
+- story: validar_avaliar_extensao
+  steps:
+  - intent: validar_avaliar_extensao
+  - action: utter_validar_avaliar_extensao
+  - action: utter_fluxo_validar_avaliar_extensao
